@@ -1,0 +1,14 @@
+{
+  "packages": ["packages/*/*"],
+  "command": {
+    "publish": {
+      "conventionalCommits": true
+    },
+    "version": {
+      "conventionalCommits": true,
+      "syncWorkspaceLock": true
+    }
+  },
+  "version": "independent",
+  "npmClient": "pnpm"
+}
